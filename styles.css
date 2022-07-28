@@ -1,0 +1,61 @@
+@font-face{
+    font-family: 'norse';
+    src: url('fonts/norse-bold-webfont.woff') format('woff'),
+         url('fonts/norse-bold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-left{
+    position: relative;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 100vh;
+    text-align: center;
+}
+
+.logo-banner{
+    display: flex;
+    position: relative;
+    top: 20%;
+    justify-content: center;
+    font: 1em "norse", monospace;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.logo-banner h1{
+    position: relative;
+    font-size: 100px;
+    line-height: 0;
+    top: 5px;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.photo-credit{
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    top: 70%;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.container-right{
+    background-color:rgba(255, 255, 255, 0.7);
+    font-family: sans-serif;
+}
+
+
+
