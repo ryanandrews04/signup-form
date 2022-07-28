@@ -53,9 +53,58 @@
     font-family: sans-serif;
 }
 .container-right{
-    background-color:rgba(255, 255, 255, 0.7);
+    background-color:#f9fafb;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.middle-right{
+
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+    background-color: white;
+}
+
+.form-inputs{
+    display: grid;
+    grid-template-columns: 33% 33%;
+}
+
+.form-inputs > div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.middle-right > p {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.form-inputs > p {
+    padding: 20px;
+}
+
+label{
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+button{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+    background: #596d48;
+    color: #eeefec;
+}
+
+.container-right > p {
+    margin: 10px;
+    font-weight: bold;
+}
 
 
